@@ -23,7 +23,8 @@
       <rect id="tile-background" class="tile-background" />
       <image class="tile-list-icon" href="icons/icon.png" />
       <text id="text" class="foreground-fill" />
-      <rect id="start" class="tile-background" opacity="0" pointer-events="visible" />
+      <rect id="start" class="tile-background" opacity="0"
+      pointer-events="visible" />
       <rect id="tile-divider-bottom" class="tile-divider-bottom" />
     </symbol>
 
