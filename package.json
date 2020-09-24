@@ -4,7 +4,7 @@
   "private": true,
   "license": "UNLICENSED",
   "devDependencies": {
-    "@fitbit/sdk": "~5.0.0-pre.8",
+    "@fitbit/sdk": "~5.0.0",
     "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
