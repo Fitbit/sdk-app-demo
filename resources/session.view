@@ -1,0 +1,23 @@
+<svg id="background" >
+  <rect x="0"   y="0" width="100%" height="100%" fill="#000000" />
+  <animate attributeName="x" to="0" begin="enable" dur="0.5"
+  easing="ease-in-out" />
+  <textarea id="description" class="textarea-msg">
+    This is an app session simulation. The backswipe gesture is overridden if a
+    session is active, taking the user to an action confirmation view.
+  </textarea>
+  <text id="duration" class="duration-msg defaultText" />
+  <svg class="container application-fill">
+    <svg class="row">
+      <text id="label-session" class="defaultText" />
+      <use id="session-toggle" href="#toggle-switch" class="toggle-switch" />
+      <rect class="line" />
+    </svg>
+    <svg class="row">
+      <text id="label-animate" class="defaultText" />
+      <use id="animate-toggle" href="#toggle-switch" class="toggle-switch"
+      value="1" />
+      <rect class="line" />
+    </svg>
+  </svg>
+</svg>

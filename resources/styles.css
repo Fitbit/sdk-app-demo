@@ -1,0 +1,115 @@
+
+.application-fill           { fill: fb-cyan; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+.container {
+  x: 10%;
+  y: 60%;
+  width: 80%;
+  height: 20%;
+}
+
+.row {
+  y: $;
+  height: 60;
+}
+
+.line {
+  y: 100%-4;
+  width: 100%;
+  height: 4;
+  fill: gray;
+  fill-opacity: 0.5;
+}
+
+.text-button            { height: 50; }
+.text-button text       { x: 50%; y: 35; width: 100%; text-anchor: middle; text-length: 64; }
+.text-button.primary    { y: 100%-106; }
+.text-button.secondary  { y: 100%-50; }
+.text-button.bottom     { y: 100%-60; }
+
+.toggle-switch          { x: 100%-70; }
+
+.uppercase              { text-transform: uppercase; }
+
+#btn-finish #text       { text-buffer: "Finish session"; }
+#btn-cancel #text       { text-buffer: "Cancel"; }
+#btn-prev #text         { text-buffer: "Previous"; }
+#btn-next #text         { text-buffer: "Next"; }
+
+#duration               { text-buffer: "00:00:000" }
+#label-session          { text-buffer: "Session active"; }
+#label-animate          { text-buffer: "Animate view reset"; }
+
+.defaultText {
+  font-size: 20;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+  fill: "fb-white";
+}
+
+.tile-list-item {
+  height: 114;
+}
+
+.tile-list-header {
+  height: 69;
+}
+
+.tile-background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%-10;
+  fill: #000000;
+  opacity: 0.25;
+}
+
+.tile-list-item text {
+  font-size: 32;
+  text-length: 64;
+  x: 30%;
+  y: 55%;
+}
+
+.tile-list-header text {
+  x: 50%;
+}
+
+.tile-list-icon {
+  x: 10%;
+  y: 25%;
+  width: 50;
+  height: 50;
+}
+
+.my-button {
+  height: 10%;
+}
+
+.my-button text {
+  font-size: 24;
+  x: 50%;
+  text-anchor: middle;
+  fill: fb-white;
+  opacity: 1;
+}
+
+.duration-msg {
+  x: 50%;
+  y: 60%;
+  width: 80%;
+  text-anchor: middle;
+}
+
+.textarea-msg {
+  x: 10%;
+  y: 10%;
+  font-size: 20;
+  text-length: 300;
+  text-anchor: middle;
+  width: 80%;
+  fill: "fb-white";
+}

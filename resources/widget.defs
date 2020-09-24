@@ -1,0 +1,31 @@
+<svg>
+  <defs>
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollbar.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/tile_list_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/toggle_switch.defs" />
+
+    <link rel="stylesheet" href="/mnt/sysassets/colors_typography.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Tile list header widget -->
+    <symbol id="my-tile-list-header" href="#tile-list-header">
+      <text id="text" class="h5 uppercase application-fill center-text" />
+      <rect id="tile-divider-bottom" class="tile-divider-top" />
+    </symbol>
+
+    <!-- Tile list item widget -->
+    <symbol id="my-tile-list-item" href="#tile-list-item">
+      <rect id="tile-background" class="tile-background" />
+      <image class="tile-list-icon" href="icons/icon.png" />
+      <text id="text" class="foreground-fill" />
+      <rect id="start" class="tile-background" opacity="0" pointer-events="visible" />
+      <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+    </symbol>
+
+  </defs>
+</svg>

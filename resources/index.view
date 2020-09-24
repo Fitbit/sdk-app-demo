@@ -1,0 +1,25 @@
+<svg class="background">
+  <rect x="0" y="0" width="100%" height="100%" fill="#000000" />
+
+  <use href="#app-gradient-background" class="app-gradient-background
+  application-fill" apply-style="at-use">
+  
+    <use id="my-tile-list" href="#tile-list">
+      <var id="separator-height-bottom" value="2" />
+      <use id="header" href="#my-tile-list-header" class="tile-list-header">
+        <set href="text" attributeName="text-buffer" to="Scenarios" />
+      </use>
+      <use id="single-view" href="#my-tile-list-item" class="tile-list-item">
+        <set href="text" attributeName="text-buffer" to="Single View" />
+      </use>
+      <use id="backswipe-override" href="#my-tile-list-item"
+      class="tile-list-item">
+        <set href="text" attributeName="text-buffer" to="Session View" />
+      </use>
+      <use id="cycle-views" href="#my-tile-list-item" class="tile-list-item">
+        <set href="text" attributeName="text-buffer" to="Cycle Views" />
+      </use>
+    </use>
+  </use>
+
+</svg>
