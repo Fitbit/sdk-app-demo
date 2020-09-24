@@ -3,7 +3,7 @@
   <animate attributeName="x" from="100%" to="0" begin="load" dur="0.5"
   easing="ease-in-out" />
   <textarea id="description" class="textarea-msg">
-    This is a dummy view, there"s nothing here waiting for you! Backswipe to try
+    This is a dummy view, there's nothing here waiting for you! Backswipe to try
     something else from the main menu.
   </textarea>
 </svg>

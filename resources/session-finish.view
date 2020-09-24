@@ -4,7 +4,7 @@
   easing="ease-in-out" />
   <textarea id="description" class="textarea-msg">
     Are you sure you want to finish this session? Backswipe to cancel. Notice
-    how the previous view hasn"t actually been unloaded meanwhile.
+    how the previous view hasn't actually been unloaded meanwhile.
   </textarea>
   <use id="btn-finish" href="#text-button" class="text-button primary
   application-fill" />
