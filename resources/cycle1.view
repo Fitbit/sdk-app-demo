@@ -1,11 +1,8 @@
 <svg id="background" >
   <rect x="0"   y="0" width="100%" height="100%" fill="#222222" />
   <textarea id="description" class="textarea-msg">
-    This is the second view in a series of three. Press the buttons to cycle
-    through them or backswipe to go to the main menu.
+    This is the second view in a series of three. Press the buttons to cycle through them or backswipe to go to the main menu.
   </textarea>
-  <use id="btn-prev" href="#text-button" class="text-button bottom left
-  secondary application-fill" />
-  <use id="btn-next" href="#text-button" class="text-button bottom right
-  application-fill" />
+  <use id="btn-prev" href="#text-button" class="text-button bottom left secondary application-fill" />
+  <use id="btn-next" href="#text-button" class="text-button bottom right application-fill" />
 </svg>
